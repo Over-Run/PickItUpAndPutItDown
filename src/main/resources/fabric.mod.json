@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "pickItUpAndPutItDown",
+  "version": "${version}",
+
+  "name": "pick It Up And Put It Down",
+  "description": "pick it up and put it down",
+  "authors": [
+    "baka4n, other_over_run_organization_people"
+  ],
+  "contact": {
+    "homepage": "https://github.com/Over-Run",
+    "sources": "https://github.com/Over-Run/PickItUpAndPutItDown"
+  },
+
+  "license": "GNU GPLv2",
+  "icon": "assets/pickItUpAndPutItDown/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "io.github.overrun.pickItUpAndPutItDown.PickItUpAndPutItDown"
+    ]
+  },
+  "mixins": [
+    "modid.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.13.3",
+    "fabric": "*",
+    "minecraft": "1.18.x",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
